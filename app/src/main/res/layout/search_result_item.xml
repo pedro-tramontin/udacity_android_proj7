@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/book_title"
+        style="@style/BaseBookDetail"
+        android:padding="@dimen/double_padding"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="Book Title"/>
+
+    <TextView
+        style="@style/BaseBookDetail"
+        android:paddingBottom="@dimen/simple_padding"
+        android:text="@string/authors"
+        android:textAppearance="?android:textAppearanceSmall"/>
+
+    <TextView
+        android:id="@+id/book_authors"
+        style="@style/BaseBookDetail"
+        android:paddingBottom="@dimen/double_padding"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Book Author1\nBook Author2"/>
+
+</LinearLayout>
